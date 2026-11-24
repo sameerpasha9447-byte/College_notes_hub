@@ -10,7 +10,7 @@
 <body class="bg-light">
 
 <div class="container py-4">
-    <h2 class="text-center text-primary mb-4">📚 Automated College Notes & Paper Hub</h2>
+    <h2 class="text-center text-primary mb-4"> College Notes & Paper Hub</h2>
 
     <!-- 1. UPLOAD SECTION -->
     <div class="card shadow-sm mb-4">
@@ -20,12 +20,12 @@
         <div class="card-body">
             <form action="/upload" method="POST" enctype="multipart/form-data" class="row g-3">
                 <div class="col-md-4">
-                    <label class="form-label">Title (e.g., Unit 1 Notes / 2024 Paper)</label>
+                    <label class="form-label">Title (Unit 1 Notes)</label>
                     <input type="text" name="title" class="form-control" required>
                 </div>
                 <div class="col-md-3">
                     <label class="form-label">Subject Name</label>
-                    <input type="text" name="subject" class="form-control" placeholder="e.g., Operating System" required>
+                    <input type="text" name="subject" class="form-control" placeholder="e.g, FSD" required>
                 </div>
                 <div class="col-md-2">
                     <label class="form-label">Semester</label>
@@ -47,7 +47,7 @@
                     </select>
                 </div>
                 <div class="col-md-9">
-                    <label class="form-label">Select File (PDF, DOCX, PPT)</label>
+                    <label class="form-label">Select File (PDF, PPT)</label>
                     <input type="file" name="file" class="form-control" required>
                 </div>
                 <div class="col-md-3 d-flex align-items-end">
